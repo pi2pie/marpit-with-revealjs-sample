@@ -28,7 +28,7 @@ npm install
 ```
 
 And the slides contents could be changed. \
-Get into `src/slides.md` \
+Get into `src/contents/slides.md` \
 Modify this file, write the contents what you like.
 
 Preview the slides.
