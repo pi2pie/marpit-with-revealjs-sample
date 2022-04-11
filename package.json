@@ -1,0 +1,39 @@
+{
+  "name": "marpit-with-revealjs-sample",
+  "version": "0.0.5",
+  "description": "MarpIt with RevealJs --sample",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build && shx cp -R ./src/assets ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pi2pie/marpit-with-revealjs-sample.git"
+  },
+  "keywords": [
+    "marpit",
+    "markdown",
+    "slide",
+    "presentation",
+    "deck",
+    "revealjs"
+  ],
+  "author": "dev-pi2pie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pi2pie/marpit-with-revealjs-sample/issues"
+  },
+  "homepage": "https://github.com/pi2pie/marpit-with-revealjs-sample#readme",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.4.1",
+    "parcel-transformer-markdown": "^2.1.0",
+    "punycode": "^2.1.1",
+    "shx": "^0.3.4"
+  },
+  "dependencies": {
+    "@marp-team/marpit": "^2.2.3",
+    "reveal.js": "^4.3.1"
+  }
+}
