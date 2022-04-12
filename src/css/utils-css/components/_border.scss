@@ -1,0 +1,59 @@
+/* border */
+
+section .ba { border-style: solid; border-width: 1px; }
+section .bt { border-top-style: solid; border-top-width: 1px; }
+section .br { border-right-style: solid; border-right-width: 1px; }
+section .bb { border-bottom-style: solid; border-bottom-width: 1px; }
+section .bl { border-left-style: solid; border-left-width: 1px; }
+section .bn { border-style: none; border-width: 0; }
+
+/* border style */
+section .b--dotted { border-style: dotted; }
+section .b--dashed { border-style: dashed; }
+section .b--solid {  border-style: solid; }
+section .b--none { border-style: none; }
+
+/* border color */
+section .b-c-normal { border-color: $normal; }
+
+/* border weidth */
+section .bw0 { border-width: 0; }
+section .bw1 { border-width: .125rem; }
+section .bw2 { border-width: .25rem; }
+section .bw3 { border-width: .5rem; }
+section .bw4 { border-width: 1rem; }
+section .bw5 { border-width: 2rem; }
+
+/* border Resets */
+section .bt-0 { border-top-width: 0; }
+section .br-0 { border-right-width: 0; }
+section .bb-0 { border-bottom-width: 0; }
+section .bl-0 { border-left-width: 0; }
+
+/* border Radius */
+section .bRad0 {  border-radius: 0; }
+section .bRad1 {  border-radius: .125rem; }
+section .bRad2 {  border-radius: .25rem; }
+section .bRad3 {  border-radius: .5rem; }
+section .bRad4 {  border-radius: 1rem; }
+section .bRad-100 {  border-radius: 100%; }
+section .bRad-pill {  border-radius: 9999px; }
+
+section .bRad-bottom {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+  }
+section .bRad-top {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+  }
+
+section .bRad-right {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+
+section .bRad-left {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+  }

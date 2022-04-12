@@ -1,0 +1,32 @@
+
+/*********************************************
+
+pi2pie.io
+
+*********************************************/
+
+section *,
+body .reveal .slides section .fragment {
+  transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+
+section pre code { overflow: hidden !important; }
+
+
+// Default mixins and settings -----------------
+@import "components/_properties";
+@import "components/_position";
+@import "components/_display";
+@import "components/_skin";
+@import "components/_img";
+@import "components/_deco";
+@import "components/_text";
+@import "components/_border";
+@import "components/_layout";
+@import "components/_flex";
+@import "components/_spacing";
+@import "components/_transform";
+// ---------------------------------------------

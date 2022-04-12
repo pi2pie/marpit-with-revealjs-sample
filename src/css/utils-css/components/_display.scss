@@ -1,0 +1,32 @@
+/* display */
+
+section .inline { display: inline }
+section .block { display: block }
+section .inline-block {  display: inline-block }
+
+section .dn { display: none; }
+section .di { display: inline; }
+section .db { display: block; }
+section .dib { display: inline-block; }
+section .dit { display: inline-table; }
+section .dt {  display: table; }
+section .dtc { display: table-cell; }
+section .dt-row { display: table-row; }
+section .dt-row-group { display: table-row-group; }
+section .dt-column { display: table-column; }
+section .dt-column-group { display: table-column-group; }
+
+/* reveal it or not */
+
+section .persistent {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+section .hidden {
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+section .removed {
+  display: none;
+}

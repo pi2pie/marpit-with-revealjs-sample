@@ -1,0 +1,90 @@
+/* var in _skin.scss */
+
+/* img zoom */
+
+section img.zoomed {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+/* sticky notes style */
+
+body section .bg {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+body section .bg-muted {
+  background-color: $muted-bg;
+  color: $muted;
+}
+body section .bg-info {
+  background-color: $info-bg;
+  color: $info;
+}
+body section .bg-warning {
+  background-color: $warning-bg;
+  color: $warning;
+}
+body section .bg-danger {
+  background-color: $danger-bg;
+  color: $danger;
+}
+body section .bg-success {
+  background-color: $success-bg;
+  color: $success;
+}
+
+section .framed {
+  border: 3px solid $framed-b;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+section .boxed {
+  border: 3px solid $boxed-b;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+section .sided {
+  border-left: 15px solid $sided-b;
+  background-color: $sided-b;
+  padding: 3px 10px 3px 10px;
+}
+section .padded {
+  padding: 3px 10px 3px 10px;
+}
+
+section .quoted {
+  background-color: $quoted-bg;
+  padding: 3px 10px 3px 10px;
+  font-style: italic;
+}
+section .quoted:before {
+  position: relative;
+  top: -0.1em;
+  content: "\f10d";
+  font-family: "FontAwesome";
+  color: $quoted-before-color;
+  padding-right: 0.3em;
+}
+section .quoted:after {
+  position: relative;
+  top: 0.3em;
+  content: "\f10e";
+  font-family: "FontAwesome";
+  color: $quoted-after-color;
+  padding-left: 0.2em;
+}
+
+/* reveal img overhaul */
+
+body section img { background: none !important; }
+body section .rounded { border-radius: 10px; }
+body section .unbordered { border-style: none; }
+body section .circled { border-radius: 50%; }
+body section .flat { box-shadow: none; }
+
+body section .border-muted { border-color: $muted-b; }
+body section .border-info { border-color: $info-b; }
+body section .border-warning { border-color: $warning-b; }
+body section .border-danger { border-color: $danger-b; }
+body section .border-success { border-color: $success-b; }

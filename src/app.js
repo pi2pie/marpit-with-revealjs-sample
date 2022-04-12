@@ -33,4 +33,15 @@ document.body.innerHTML =
 `;
 
 // Initialize reveal.js
-Reveal.initialize({ plugins: [Markdown, Search] });
+Reveal.initialize({
+  width: 1280,
+  height: 720,
+
+  // Factor of the display size that should remain empty around
+  // the content
+  margin: 0,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.01,
+  maxScale: 1.25, 
+  plugins: [Markdown, Search] });

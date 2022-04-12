@@ -1,4 +1,5 @@
 @import url(./light.css);
+@import url(./utils-css/utils.scss);
 
 :root {
   --logo-size: 64px;
@@ -7,6 +8,33 @@
 html {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  }
+
+  .layout-horizon {
+    display: flex; flex-flow: row;
+  }
+
+  .layout-vertical {
+    display: flex; flex-flow: column;
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .reveal .m-0, .reveal .m-0 img {
+    margin: 0;
+  }
+
+ code {
+    color: black;
+  }
+
+ pre {
+    background-color: rgb(225, 225, 225);
+    border-radius: 12px;
+    padding: 36px;
 
   }
 

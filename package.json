@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/pi2pie/marpit-with-revealjs-sample#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
     "buffer": "^6.0.3",
     "parcel": "^2.4.1",
     "parcel-transformer-markdown": "^2.1.0",

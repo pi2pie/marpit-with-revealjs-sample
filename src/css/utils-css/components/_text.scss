@@ -1,0 +1,105 @@
+/* Font Weight */
+
+section .fw01 {
+  font-weight: 100; // Thin
+}
+
+section .fw02 {
+  font-weight: 200; // Light
+}
+
+section .fw03 {
+  font-weight: 300; // DemiLight
+}
+
+section .fw04 {
+  font-weight: 400; // Regular
+}
+
+section .fw05 {
+  font-weight: 500; // Medium
+}
+
+section .fw06 {
+  font-weight: 600; // SemiBold
+}
+
+section .fw07 {
+  font-weight: 700; // Bold
+}
+
+section .fw09 {
+  font-weight: 900; // Black
+}
+
+/* writing mode */
+
+section .wr-hr-tb {
+  writing-mode: horizontal-tb;
+  -webkit-writing-mode: horizontal-tb;
+  -ms-writing-mode: horizontal-tb;
+}
+
+section .wr-vr-L {
+  writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: vertical-lr;
+}
+
+section .wr-vr-R {
+  writing-mode: vertical-rl;
+ -webkit-writing-mode: vertical-rl;
+ -ms-writing-mode: vertical-rl;
+}
+
+section .wr-side-L {
+  writing-mode: sideways-lr;
+  -webkit-writing-mode: sideways-lr;
+  -ms-writing-mode: sideways-lr;
+}
+
+section .wr-side-R {
+  writing-mode: sideways-rl;
+ -webkit-writing-mode: sideways-rl;
+ -ms-writing-mode: sideways-rl;
+}
+
+/* text Upper Lower Case */
+
+section .ttc { text-transform: capitalize; }
+section .ttl { text-transform: lowercase; }
+section .ttu { text-transform: uppercase; }
+section .ttn { text-transform: none; }
+
+/* text align */
+
+section .tl  { text-align: left; }
+section .tr { text-align: right; }
+section .tc { text-align: center; }
+section .tj { text-align: justify; }
+
+/* font style */
+
+section .strong { font-weight: bold; }
+section .em { font-style: italic; }
+section .u { text-decoration: underline; }
+section .strike { text-decoration: line-through; }
+section .tt { font-family: monospace; }
+section .sf { font-family: sans-serif; }
+
+/* line height */
+
+section .lh-solid { line-height: 1; }
+section .lh-title { line-height: 1.25; }
+section .lh-copy  { line-height: 1.5; }
+
+/* letter-spacing  */
+
+section .l-sp0 { letter-spacing: 0; }
+section .l-sp1 { letter-spacing: 1rem; }
+section .l-sp2 { letter-spacing: 1.25rem; }
+section .l-sp3 { letter-spacing: 1.5rem; }
+section .l-sp4 { letter-spacing: 2rem; }
+section .l-sp5 { letter-spacing: 2.5rem; }
+section .l-sp6 { letter-spacing: 3rem; }
+section .l-sp7 { letter-spacing: 4rem; }

@@ -1,0 +1,360 @@
+/* space padding */
+
+$spacing-none: 0;
+$spacing-extra-small: .25rem;
+$spacing-small: .5rem;
+$spacing-medium: 1rem;
+$spacing-large: 2rem;
+$spacing-extra-large: 4rem;
+$spacing-extra-extra-large: 8rem;
+$spacing-extra-extra-extra-large: 16rem;
+
+section .pa0 { padding:  $spacing-none; }
+section .pa1 { padding:  $spacing-extra-small; }
+section .pa2 { padding:  $spacing-small; }
+section .pa3 { padding:  $spacing-medium; }
+section .pa4 { padding:  $spacing-large; }
+section .pa5 { padding:  $spacing-extra-large; }
+section .pa6 { padding:  $spacing-extra-extra-large; }
+section .pa7 { padding:  $spacing-extra-extra-extra-large; }
+
+section .pl0 { padding-left:  $spacing-none; }
+section .pl1 { padding-left:  $spacing-extra-small; }
+section .pl2 { padding-left:  $spacing-small; }
+section .pl3 { padding-left:  $spacing-medium; }
+section .pl4 { padding-left:  $spacing-large; }
+section .pl5 { padding-left:  $spacing-extra-large; }
+section .pl6 { padding-left:  $spacing-extra-extra-large; }
+section .pl7 { padding-left:  $spacing-extra-extra-extra-large; }
+
+section .pr0 { padding-right:  $spacing-none; }
+section .pr1 { padding-right:  $spacing-extra-small; }
+section .pr2 { padding-right:  $spacing-small; }
+section .pr3 { padding-right:  $spacing-medium; }
+section .pr4 { padding-right:  $spacing-large; }
+section .pr5 { padding-right:  $spacing-extra-large; }
+section .pr6 { padding-right:  $spacing-extra-extra-large; }
+section .pr7 { padding-right:  $spacing-extra-extra-extra-large; }
+
+section .pb0 { padding-bottom:  $spacing-none; }
+section .pb1 { padding-bottom:  $spacing-extra-small; }
+section .pb2 { padding-bottom:  $spacing-small; }
+section .pb3 { padding-bottom:  $spacing-medium; }
+section .pb4 { padding-bottom:  $spacing-large; }
+section .pb5 { padding-bottom:  $spacing-extra-large; }
+section .pb6 { padding-bottom:  $spacing-extra-extra-large; }
+section .pb7 { padding-bottom:  $spacing-extra-extra-extra-large; }
+
+section .pt0 { padding-top:  $spacing-none; }
+section .pt1 { padding-top:  $spacing-extra-small; }
+section .pt2 { padding-top:  $spacing-small; }
+section .pt3 { padding-top:  $spacing-medium; }
+section .pt4 { padding-top:  $spacing-large; }
+section .pt5 { padding-top:  $spacing-extra-large; }
+section .pt6 { padding-top:  $spacing-extra-extra-large; }
+section .pt7 { padding-top:  $spacing-extra-extra-extra-large; }
+
+section .pv0 {
+  padding-top:  $spacing-none;
+  padding-bottom:  $spacing-none;
+}
+section .pv1 {
+  padding-top:  $spacing-extra-small;
+  padding-bottom:  $spacing-extra-small;
+}
+section .pv2 {
+  padding-top:  $spacing-small;
+  padding-bottom:  $spacing-small;
+}
+section .pv3 {
+  padding-top:  $spacing-medium;
+  padding-bottom:  $spacing-medium;
+}
+section .pv4 {
+  padding-top:  $spacing-large;
+  padding-bottom:  $spacing-large;
+}
+section .pv5 {
+  padding-top:  $spacing-extra-large;
+  padding-bottom:  $spacing-extra-large;
+}
+section .pv6 {
+  padding-top:  $spacing-extra-extra-large;
+  padding-bottom:  $spacing-extra-extra-large;
+}
+
+section .pv7 {
+  padding-top:  $spacing-extra-extra-extra-large;
+  padding-bottom:  $spacing-extra-extra-extra-large;
+}
+
+section .ph0 {
+  padding-left:  $spacing-none;
+  padding-right:  $spacing-none;
+}
+
+section .ph1 {
+  padding-left:  $spacing-extra-small;
+  padding-right:  $spacing-extra-small;
+}
+
+section .ph2 {
+  padding-left:  $spacing-small;
+  padding-right:  $spacing-small;
+}
+
+section .ph3 {
+  padding-left:  $spacing-medium;
+  padding-right:  $spacing-medium;
+}
+
+section .ph4 {
+  padding-left:  $spacing-large;
+  padding-right:  $spacing-large;
+}
+
+section .ph5 {
+  padding-left:  $spacing-extra-large;
+  padding-right:  $spacing-extra-large;
+}
+
+section .ph6 {
+  padding-left:  $spacing-extra-extra-large;
+  padding-right:  $spacing-extra-extra-large;
+}
+
+section .ph7 {
+  padding-left:  $spacing-extra-extra-extra-large;
+  padding-right:  $spacing-extra-extra-extra-large;
+}
+
+/* spacing margin */
+
+section .ma0  {  margin: $spacing-none; }
+section .ma1 {  margin: $spacing-extra-small; }
+section .ma2  {  margin: $spacing-small; }
+section .ma3  {  margin: $spacing-medium; }
+section .ma4  {  margin: $spacing-large; }
+section .ma5  {  margin: $spacing-extra-large; }
+section .ma6 {  margin: $spacing-extra-extra-large; }
+section .ma7 { margin: $spacing-extra-extra-extra-large; }
+
+section .ml0  {  margin-left: $spacing-none; }
+section .ml1 {  margin-left: $spacing-extra-small; }
+section .ml2  {  margin-left: $spacing-small; }
+section .ml3  {  margin-left: $spacing-medium; }
+section .ml4  {  margin-left: $spacing-large; }
+section .ml5  {  margin-left: $spacing-extra-large; }
+section .ml6 {  margin-left: $spacing-extra-extra-large; }
+section .ml7 { margin-left: $spacing-extra-extra-extra-large; }
+
+section .mr0  {  margin-right: $spacing-none; }
+section .mr1 {  margin-right: $spacing-extra-small; }
+section .mr2  {  margin-right: $spacing-small; }
+section .mr3  {  margin-right: $spacing-medium; }
+section .mr4  {  margin-right: $spacing-large; }
+section .mr5  {  margin-right: $spacing-extra-large; }
+section .mr6 {  margin-right: $spacing-extra-extra-large; }
+section .mr7 { margin-right: $spacing-extra-extra-extra-large; }
+
+section .mb0  {  margin-bottom: $spacing-none; }
+section .mb1 {  margin-bottom: $spacing-extra-small; }
+section .mb2  {  margin-bottom: $spacing-small; }
+section .mb3  {  margin-bottom: $spacing-medium; }
+section .mb4  {  margin-bottom: $spacing-large; }
+section .mb5  {  margin-bottom: $spacing-extra-large; }
+section .mb6 {  margin-bottom: $spacing-extra-extra-large; }
+section .mb7 { margin-bottom: $spacing-extra-extra-extra-large; }
+
+section .mt0  {  margin-top: $spacing-none; }
+section .mt1 {  margin-top: $spacing-extra-small; }
+section .mt2  {  margin-top: $spacing-small; }
+section .mt3  {  margin-top: $spacing-medium; }
+section .mt4  {  margin-top: $spacing-large; }
+section .mt5  {  margin-top: $spacing-extra-large; }
+section .mt6 {  margin-top: $spacing-extra-extra-large; }
+section .mt7 { margin-top: $spacing-extra-extra-extra-large; }
+
+section .mv0   {
+  margin-top: $spacing-none;
+  margin-bottom: $spacing-none;
+}
+section .mv1  {
+  margin-top: $spacing-extra-small;
+  margin-bottom: $spacing-extra-small;
+}
+section .mv2   {
+  margin-top: $spacing-small;
+  margin-bottom: $spacing-small;
+}
+section .mv3   {
+  margin-top: $spacing-medium;
+  margin-bottom: $spacing-medium;
+}
+section .mv4   {
+  margin-top: $spacing-large;
+  margin-bottom: $spacing-large;
+}
+section .mv5   {
+  margin-top: $spacing-extra-large;
+  margin-bottom: $spacing-extra-large;
+}
+section .mv6  {
+  margin-top: $spacing-extra-extra-large;
+  margin-bottom: $spacing-extra-extra-large;
+}
+section .mv7  {
+  margin-top: $spacing-extra-extra-extra-large;
+  margin-bottom: $spacing-extra-extra-extra-large;
+}
+
+section .mh0   {
+  margin-left: $spacing-none;
+  margin-right: $spacing-none;
+}
+section .mh1   {
+  margin-left: $spacing-extra-small;
+  margin-right: $spacing-extra-small;
+}
+section .mh2   {
+  margin-left: $spacing-small;
+  margin-right: $spacing-small;
+}
+section .mh3   {
+  margin-left: $spacing-medium;
+  margin-right: $spacing-medium;
+}
+section .mh4   {
+  margin-left: $spacing-large;
+  margin-right: $spacing-large;
+}
+section .mh5   {
+  margin-left: $spacing-extra-large;
+  margin-right: $spacing-extra-large;
+}
+section .mh6  {
+  margin-left: $spacing-extra-extra-large;
+  margin-right: $spacing-extra-extra-large;
+}
+section .mh7  {
+  margin-left: $spacing-extra-extra-extra-large;
+  margin-right: $spacing-extra-extra-extra-large;
+}
+
+/* spacing margin percentage */
+
+$margin-top-first:1;
+$margin-top-mid:34;
+
+section .mT-05 { margin-top:0.5%; }
+
+@while $margin-top-first < 33 {
+  section .mT-#{$margin-top-first} {
+    margin-top: percentage($margin-top-first*0.01);
+  }
+  $margin-top-first: $margin-top-first+1;
+}
+
+section .mT-33 { margin-top:33.33%; }
+
+@while $margin-top-mid < 66 {
+  section .mT-#{$margin-top-mid} {
+    margin-top: percentage($margin-top-mid*0.01);
+  }
+  $margin-top-mid: $margin-top-mid+1;
+}
+
+section .mT-66 { margin-top:66.66%; }
+
+@for $i from 67 through 100 {
+  section .mT-#{$i} {
+    margin-top: round(percentage($i*0.01));
+  }
+}
+
+$margin-bottom-first:1;
+$margin-bottom-mid:34;
+
+section .mB-05 { margin-bottom:0.5%; }
+
+@while $margin-bottom-first < 33 {
+  section .mB-#{$margin-bottom-first} {
+    margin-bottom: percentage($margin-bottom-first*0.01);
+  }
+  $margin-bottom-first: $margin-bottom-first+1;
+}
+
+section .mB-33 { margin-bottom:33.33%; }
+
+@while $margin-bottom-mid < 66 {
+  section .mB-#{$margin-bottom-mid} {
+    margin-bottom: percentage($margin-bottom-mid*0.01);
+  }
+  $margin-bottom-mid: $margin-bottom-mid+1;
+}
+
+section .mB-66 { margin-bottom:66.66%; }
+
+@for $i from 67 through 100 {
+  section .mB-#{$i} {
+    margin-bottom: round(percentage($i*0.01));
+  }
+}
+
+$margin-left-first:1;
+$margin-left-mid:34;
+
+section .mL-05 { margin-left:0.5%; }
+
+@while $margin-left-first < 33 {
+  section .mL-#{$margin-left-first} {
+    margin-left: percentage($margin-left-first*0.01);
+  }
+  $margin-left-first: $margin-left-first+1;
+}
+
+section .mL-33 { margin-left:33.33%; }
+
+@while $margin-left-mid < 66 {
+  section .mL-#{$margin-left-mid} {
+    margin-left: percentage($margin-left-mid*0.01);
+  }
+  $margin-left-mid: $margin-left-mid+1;
+}
+
+section .mL-66 { margin-left:66.66%; }
+
+@for $i from 67 through 100 {
+  section .mL-#{$i} {
+    margin-left: round(percentage($i*0.01));
+  }
+}
+
+$margin-right-first:1;
+$margin-right-mid:34;
+
+section .mR-05 { margin-right:0.5%; }
+
+@while $margin-right-first < 33 {
+  section .mR-#{$margin-right-first} {
+    margin-right: percentage($margin-right-first*0.01);
+  }
+  $margin-right-first: $margin-right-first+1;
+}
+
+section .mR-33 { margin-right:33.33%; }
+
+@while $margin-right-mid < 66 {
+  section .mR-#{$margin-right-mid} {
+    margin-right: percentage($margin-right-mid*0.01);
+  }
+  $margin-right-mid: $margin-right-mid+1;
+}
+
+section mR-66 { margin-right:66.66%; }
+
+@for $i from 67 through 100 {
+  section .mR-#{$i} {
+    margin-right: round(percentage($i*0.01));
+  }
+}

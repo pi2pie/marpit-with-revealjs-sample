@@ -1,0 +1,11 @@
+/* transform */
+
+@function mul5($number) {
+  @return $number*5;
+}
+
+@for $i from 1 through 72 {
+  section .rotation-#{mul5($i)} {
+    @include transform ( rotate(#{mul5($i)}deg));
+  }
+}
