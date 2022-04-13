@@ -15,6 +15,11 @@ section .b--none { border-style: none; }
 
 /* border color */
 section .b-c-normal { border-color: $normal; }
+section .b-c-muted { border-color: $muted; }
+section .b-c-info { border-color: $info; }
+section .b-c-warning { border-color: $warning; }
+section .b-c-danger { border-color: $danger; }
+section .b-c-success { border-color: $success; }
 
 /* border weidth */
 section .bw0 { border-width: 0; }
