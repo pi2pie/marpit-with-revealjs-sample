@@ -10,9 +10,6 @@ Experience how [Marpit] works with [reveal.js]
 ---
 
 <!--_transition: zoom -->
-<!--
-autoAnimate: true
--->
 ## [Marpit] + [reveal.js]
 
 [![h:100](https://marpit.marp.app/marpit.png)][marpit]
@@ -25,20 +22,11 @@ See [the source code](https://codesandbox.io/s/nw80vrxvpp?file=/src/index.js) on
 
 ---
 
-<!--
-autoAnimate: true
--->
+<!--_transition: fade -->
 
-And [this sample](https://github.com/pi2pie/marpit-with-revealjs-sample) modified by **pi2pie**. 
-## [Marpit] + [reveal.js]
-
-[![h:100](https://marpit.marp.app/marpit.png)][marpit]
-[![h:100](https://revealjs.com/images/logo/reveal-black-text-sticker.png)][reveal.js]
-
-See [the source code](https://codesandbox.io/s/nw80vrxvpp?file=/src/index.js) on CodeSandbox. 
+And [this sample](https://github.com/pi2pie/marpit-with-revealjs-sample) modified by **pi2pie**.  
 
 ---
-
 ### Check out image syntax
 
 ```markdown
@@ -54,6 +42,7 @@ Such as …
 <section>
 <img src="url">
 </section>
+
 ```
 
 ---
@@ -79,6 +68,8 @@ Such as …
 </section>
 
 ---
+
+<!--_transition: fade -->
 
 <section data-background-color="aquamarine">
 <div class="layout-horizon" style="gap: 1em;">
