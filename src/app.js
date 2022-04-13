@@ -4,6 +4,7 @@ import transition from "./plugins/transition";
 import Reveal from "reveal.js";
 import Markdown from "reveal.js/plugin/markdown/markdown.esm";
 import Search from "reveal.js/plugin/search/search.esm";
+import Highlight from "reveal.js/plugin/highlight/highlight.esm";
 import "reveal.js/dist/reveal.css";
 import "./css/styles.css";
 import HTMLStr from "./contents/slides.md";
@@ -44,4 +45,4 @@ Reveal.initialize({
   // Bounds for smallest/largest possible scale to apply to content
   minScale: 0.01,
   maxScale: 1.25, 
-  plugins: [Markdown, Search] });
+  plugins: [Markdown, Search, Highlight] });

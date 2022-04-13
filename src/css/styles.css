@@ -1,5 +1,6 @@
 @import url(./light.css);
 @import url(./utils-css/utils.scss);
+@import url(./utils-css/highlightjs/tokyo-night-dark.css);
 
 :root {
   --logo-size: 64px;
@@ -28,11 +29,11 @@ html {
   }
 
  code {
-    color: black;
+   /* - */
   }
 
  pre {
-    background-color: rgb(225, 225, 225);
+    background-color: #1a1b26; /* this property should as same as the setting in hljs */
     border-radius: 12px;
     padding: 36px;
 
