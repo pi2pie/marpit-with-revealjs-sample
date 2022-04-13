@@ -53,4 +53,5 @@ npm run build
 
 > [!WARNING] > In `slides.md`, if you change `styles` instead of contents, run `npm run build` first. 
 > For this, the result would be the correct `styles` you set in your `slides.md`.
+>
 > `styles`: your css class name or inline style.
