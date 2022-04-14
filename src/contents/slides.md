@@ -58,11 +58,13 @@ Such as …
 ---
 
 <section>
+<div class="ph2">
 <div class="ba bw3 bRad4">
 <div class="layout-vertical items-center m-0 pv5">
 <img src="https://fakeimg.pl/1200x96/0288d1/fff/?text=A">
 <img src="https://fakeimg.pl/1200x96/02669d/fff/?text=B">
 <img src="https://fakeimg.pl/1200x96/67b8e3/fff/?text=C">
+</div>
 </div>
 </div>
 </section>
@@ -72,7 +74,7 @@ Such as …
 <!--_transition: fade -->
 
 <section data-background-color="aquamarine">
-<div class="layout-horizon" style="gap: 1em;">
+<div class="layout-horizon ph4" style="gap: 1em;">
 <div class="col-50">
 <img src="https://fakeimg.pl/800x600/0288d1/fff/?text=A">
 </div>

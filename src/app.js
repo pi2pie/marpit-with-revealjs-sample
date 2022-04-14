@@ -44,5 +44,14 @@ Reveal.initialize({
 
   // Bounds for smallest/largest possible scale to apply to content
   minScale: 0.01,
-  maxScale: 1.25, 
+  maxScale: 1.25,
+
+  // Use 1 based indexing for # links to match slide number (default is zero
+  // based)
+  hashOneBasedIndex: true,
+  
+  // Add the current slide number to the URL hash so that reloading the
+  // page/copying the URL will return you to the same slide
+  hash: true, 
+
   plugins: [Markdown, Search, Highlight] });
