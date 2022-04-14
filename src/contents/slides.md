@@ -105,20 +105,29 @@ Such as …
 ---
 
 <section>
+  <div class="mb5">
+    <h2 class="ttn">Fragments</h2>
+    <br>
     <p class="fragment">Fade in</p>
     <p class="fragment fade-out">Fade out</p>
     <p class="fragment highlight-red">Highlight red</p>
     <p class="fragment fade-in-then-out">Fade in, then out</p>
     <p class="fragment fade-up">Slide up while fading in</p>
+  </div>
 </section>
 
 ---
 
-<section data-markdown>
+<section>
+<div class="layout-vertical mb4">
+<h2 class="ttn pr5">Markdown Table</h2>
+<div data-markdown>
 | Examples     | Command       |
 |:-------------|:--------------|
 | from 5 to 20 | `:5,20s/^/#`  |
 | revert       | `:5,20s/^#//` |
+</div>
+</div>
 </section>
 
 ---
