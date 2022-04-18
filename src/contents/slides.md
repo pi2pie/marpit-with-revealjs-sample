@@ -180,6 +180,39 @@ Such as …
 
 ---
 
+<section>
+<div class="layout-vertical mb6">
+<div class="layout-horizon ph4 ml4" style="gap: 1em;">
+ <div class="col-66">
+  <p class="noto-sans-tc tl fw03">
+    北冥有魚，其名為鯤。鯤之大，不知其幾千里也。化而為鳥，其名為鵬。鵬之背，不知其幾千里也；怒而飛，其翼若垂天之雲。是鳥也，海運則將徙於南冥。南冥者，天池也。
+  </p>
+ </div>
+<div style="max-height: 640px;">
+  <p class="noto-serif-tc fw07 wr-vr-R tl">
+    北冥有魚，其名為鯤。鯤之大，不知其幾千里也。化而為鳥，其名為鵬。鵬之背，不知其幾千里也；怒而飛，其翼若垂天之雲。是鳥也，海運則將徙於南冥。南冥者，天池也。
+  </p>
+ </div>
+</div>
+
+<div class="layout-horizon justify-around ph6 bt bw2">
+
+ <div class="smaller tl fw02">
+  <p> < writing-mode: horizontal-tb</p>
+  <p> < Default</p>
+ </div>
+ <div class="smaller tr fw02">
+  <p>writing-mode: vertical-rl > </p>
+ </div>
+
+</div>
+
+
+</div>
+</section>
+
+---
+
 <!--
 autoAnimate: true
 transition: slide

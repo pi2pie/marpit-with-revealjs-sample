@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap'); /* font-family: 'Noto Serif TC', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');  /* font-family: 'Noto Sans TC', sans-serif; */
+
+
+.reveal .noto-serif-tc {
+    font-family: "Noto Serif TC";
+  }
+
+.reveal .noto-sans-tc {
+    font-family: "Noto Sans TC";
+  }
+

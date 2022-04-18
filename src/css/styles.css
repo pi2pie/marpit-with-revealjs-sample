@@ -1,6 +1,7 @@
 @import url(./light.css);
 @import url(./utils-css/utils.scss);
 @import url(./utils-css/highlightjs/tokyo-night-dark.css);
+@import url(./fonts.css);
 
 :root {
   --logo-size: 64px;
