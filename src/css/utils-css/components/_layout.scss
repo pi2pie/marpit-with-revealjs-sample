@@ -105,57 +105,7 @@ section .pull-66 { left:-66.66% !important; }
     left: - round(percentage($i*0.01)) !important;
   }
 }
-
-$upper-first:1;
-$upper-mid:34;
-
-@while $upper-first < 33 {
-  section .upper-#{$upper-first} {
-    top: percentage($upper-first*0.01) !important;
-  }
-  $upper-first: $upper-first+1;
-}
-
-section .upper-33 { top:33.33% !important; }
-
-@while $upper-mid < 66 {
-  section .upper-#{$upper-mid} {
-    top: percentage($upper-mid*0.01) !important;
-  }
-  $upper-mid: $upper-mid+1;
-}
-
-section .upper-66 { top:66.66% !important; }
-
-@for $i from 67 through 100 {
-  section .upper-#{$i} {
-    top: round(percentage($i*0.01)) !important;
-  }
-}
-
-$lower-first:1;
-$lower-mid:34;
-
-@while $lower-first < 33 {
-  section .lower-#{$lower-first} {
-    top: - percentage($lower-first*0.01) !important;
-  }
-  $lower-first: $lower-first+1;
-}
-
-section .lower-33 { top:-33.33%; }
-
-@while $lower-mid < 66 {
-  section .lower-#{$lower-mid} {
-    top: - percentage($lower-mid*0.01) !important;
-  }
-  $lower-mid: $lower-mid+1;
-}
-
-section .lower-66 { top:-66.66%; }
-
-@for $i from 67 through 100 {
-  section .lower-#{$i} {
-    top: - round(percentage($i*0.01)) !important;
-  }
-}
+/* 
+ No `top` and `bottom` properties, 
+ due to the fact that the `top` and `bottom` properties are not inherited by default.
+*/
