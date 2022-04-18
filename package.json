@@ -5,7 +5,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build && shx cp -R ./src/assets ./dist"
+    "build": "parcel build && shx cp -R ./src/assets ./dist",
+    "pack": "parcel build && shx cp -R ./src/assets ./dist && parcel"
   },
   "repository": {
     "type": "git",
