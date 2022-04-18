@@ -132,6 +132,54 @@ Such as …
 
 ---
 
+<section data-auto-animate>
+
+<div class="absolute push-15">
+<div class="col-25 pa5 ba b-c-info bw3">
+<p>BOX</p>
+</div>
+<p class="smaller mr7">push-15</p>
+<div class="mt4">
+<pre>
+<code data-line-numbers="1">
+  <div class="absolute push-15">
+     <div class="col-25 pa5 ba b-c-info bw3">
+     <p>BOX</p>
+     </div>
+  </div>
+</code>
+</pre>
+</div>
+</div>
+
+</section>
+
+---
+
+<section data-auto-animate>
+
+<div class="absolute push-25">
+<div class="col-25 pa5 ba b-c-info bw3">
+<p>BOX</p>
+</div>
+<p class="smaller mr7 danger em strong">push-25</p>
+<div class="mt4">
+<pre>
+<code data-line-numbers="2">
+  <div class="absolute push-25">
+     <div class="col-25 pa5 ba b-c-info bw3">
+     <p>BOX</p>
+     </div>
+  </div>
+</code>
+</pre>
+</div>
+</div>
+
+</section>
+
+---
+
 <!--
 autoAnimate: true
 transition: slide
