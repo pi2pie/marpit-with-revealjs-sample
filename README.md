@@ -24,15 +24,24 @@ First of all, clone this repo.
 ```sh
 git clone https://github.com/pi2pie/marpit-with-revealjs-sample.git
 ```
+First remove the `.git`, and create your own.
+
+```sh
+$ cd marpit-with-revealjs-sample
+$ rm -rf .git 
+$ git init
+$ git add .
+$ git commit -m 'init' -a 
+```
 
 And then install packages.
 
 ```sh
-yarn install
+$ yarn install
 
 or
 
-npm install
+$ npm install
 ```
 
 And the slides contents could be changed. \
@@ -42,13 +51,13 @@ Modify this file, write the contents what you like.
 Preview the slides.
 
 ```sh
-npm run start
+$ npm run start
 ```
 
 Build the slides in `dist/*`
 
 ```sh
-npm run build
+$ npm run build
 ```
 
 > [!WARNING] > In `slides.md`, if you change `styles` instead of contents, run `npm run build` first. 
@@ -59,7 +68,7 @@ npm run build
 ### Combined
 
 ```sh
-npm run pack
+$ npm run pack
 ```
 
 This command would run `build` and `start`.
