@@ -19,12 +19,12 @@ This is a side project for experiencing how to let them work together and also h
 
 ## Usage
 
-First of all, clone this repo.
+First, clone this repo or **[use this template](https://github.com/pi2pie/marpit-with-revealjs-sample/generate)**
 
 ```sh
 git clone https://github.com/pi2pie/marpit-with-revealjs-sample.git
 ```
-First remove the `.git`, and create your own.
+And remove the `.git`, and create your own.
 
 ```sh
 $ cd marpit-with-revealjs-sample
