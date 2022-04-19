@@ -55,3 +55,53 @@ npm run build
 > For this, the result would be the correct `styles` you set in your `slides.md`.
 >
 > `styles`: your css class name or inline style.
+
+### Combined
+
+```sh
+npm run pack
+```
+
+This command would run `build` and `start`.
+
+---
+
+## Structure
+
+```ini
+./src
+├── app.js
+├── assets
+│   └── DocIconP.svg
+├── contents
+│   └── slides.md
+├── css
+│   ├── fonts.css
+│   ├── light.css
+│   ├── styles.css
+│   └── utils-css /
+├── index.html
+└── plugins
+    ├── auto-animate.js
+    └── transition.js
+```
+
+This is the files structure. \
+`assets/` directory is for media files, put your images or videos here.
+
+
+```js
+// src/app.js
+<!-- promo banner -->
+
+<div class="promo-banner">
+<a class="promo-link" href="/" rel="noopener noreferrer">
+<img src="./assets/DocIconP.svg" alt=""></a>
+</div>
+```
+
+And also, in `app.js`, the `promo-banner`use `./assets/DocIconP.svg` as **Logo**. \
+This one could be changed, it is just like a placeholder.
+
+`css`: 
+There is the `utility-first css` for the design concept here.
