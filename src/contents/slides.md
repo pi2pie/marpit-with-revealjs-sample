@@ -228,7 +228,8 @@ transition: slide
 ---
 ## _Disclaimer_
 
-**[Marpit] is not only for [Marp](https://marp.app/)**. Please notice currently [Marpit] has not supported [reveal.js] offically.
+**[Marpit] is not only for [Marp](https://marp.app/)**. \
+Please notice that, currently [Marpit] has not supported [reveal.js] offically.
 
 ---
 
