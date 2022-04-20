@@ -35,8 +35,8 @@ document.body.innerHTML =
 
 // Initialize reveal.js
 Reveal.initialize({
-  width: 1280,
-  height: 720,
+  width: 1680,
+  height: 960,
 
   // Factor of the display size that should remain empty around
   // the content
