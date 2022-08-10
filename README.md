@@ -5,15 +5,14 @@ However, some functions are able to be implemented by writing **_Html_** in the
 **_Markdown_** file. \
 Indeed, this way sounds weird, but it works.
 
-> [!WARNING] > [bg] does not work properly with **_MarpIt_** + **_Reveal.js_**
+> ⚠︎ > [bg] does not work properly with **_MarpIt_** + **_Reveal.js_**
 
-> [!NOTE] > `transition` in slides should be used **_Marpit_** directives, instead of `data-transition` in **_Reveal.js_**
+> ⚡︎ > `transition` in slides should be used **_Marpit_** directives, instead of `data-transition` in **_Reveal.js_**
 
 ## _Disclaimer_
 
 And [this sample](https://github.com/pi2pie/marpit-with-revealjs-sample) modified by **pi2pie**.
 This is a side project for experiencing how to let them work together and also how to make slides more efficiently.
-
 
 ---
 
@@ -24,14 +23,15 @@ First, clone this repo or **[use this template](https://github.com/pi2pie/marpit
 ```sh
 git clone https://github.com/pi2pie/marpit-with-revealjs-sample.git
 ```
+
 And remove the `.git`, and create your own.
 
 ```sh
 $ cd marpit-with-revealjs-sample
-$ rm -rf .git 
+$ rm -rf .git
 $ git init
 $ git add .
-$ git commit -m 'init' -a 
+$ git commit -m 'init' -a
 ```
 
 And then install packages.
@@ -60,7 +60,7 @@ Build the slides in `dist/*`
 $ npm run build
 ```
 
-> [!WARNING] > In `slides.md`, if you change `styles` instead of contents, run `npm run build` first. 
+> [!WARNING] > In `slides.md`, if you change `styles` instead of contents, run `npm run build` first.
 > For this, the result would be the correct `styles` you set in your `slides.md`.
 >
 > `styles`: your css class name or inline style.
@@ -98,7 +98,6 @@ This command would run `build` and `start`.
 This is the files structure. \
 `assets/` directory is for media files, put your images or videos here.
 
-
 ```js
 // src/app.js
 <!-- promo banner -->
@@ -112,5 +111,6 @@ This is the files structure. \
 And also, in `app.js`, the `promo-banner`use `./assets/DocIconP.svg` as **Logo**. \
 This one could be changed, it is just like a placeholder.
 
-`css`: 
+`css`:
 There is the `utility-first css` for the design concept here.
+
