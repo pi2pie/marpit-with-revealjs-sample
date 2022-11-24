@@ -45,7 +45,7 @@ $ npm install
 ```
 
 And the slides contents could be changed. \
-Get into `src/contents/slides.md` \
+Get into `src/slides.md` \
 Modify this file, write the contents what you like.
 
 Preview the slides.
@@ -113,4 +113,3 @@ This one could be changed, it is just like a placeholder.
 
 `css`:
 There is the `utility-first css` for the design concept here.
-

@@ -1,18 +1,18 @@
-import { Marpit, Element } from "@marp-team/marpit";
-import autoAnimate from "./plugins/auto-animate";
-import transition from "./plugins/transition";
-import Reveal from "reveal.js";
-import Markdown from "reveal.js/plugin/markdown/markdown.esm";
-import Search from "reveal.js/plugin/search/search.esm";
-import Highlight from "reveal.js/plugin/highlight/highlight.esm";
-import "reveal.js/dist/reveal.css";
-import "./css/styles.css";
-import HTMLStr from "./contents/slides.md";
+import { Marpit, Element } from '@marp-team/marpit';
+import autoAnimate from './plugins/auto-animate';
+import transition from './plugins/transition';
+import Reveal from 'reveal.js';
+import Markdown from 'reveal.js/plugin/markdown/markdown.esm';
+import Search from 'reveal.js/plugin/search/search.esm';
+import Highlight from 'reveal.js/plugin/highlight/highlight.esm';
+import 'reveal.js/dist/reveal.css';
+import './css/styles.css';
+import HTMLStr from './slides.md';
 
 const marpit = new Marpit({
   container: [
-    new Element("div", { class: "reveal" }),
-    new Element("div", { class: "slides" }),
+    new Element('div', { class: 'reveal' }),
+    new Element('div', { class: 'slides' }),
   ],
 });
 
@@ -49,9 +49,11 @@ Reveal.initialize({
   // Use 1 based indexing for # links to match slide number (default is zero
   // based)
   hashOneBasedIndex: true,
-  
+
   // Add the current slide number to the URL hash so that reloading the
   // page/copying the URL will return you to the same slide
-  hash: true, 
+  hash: true,
 
-  plugins: [Markdown, Search, Highlight] });
+  plugins: [Markdown, Search, Highlight],
+});
+
