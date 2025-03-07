@@ -1,6 +1,6 @@
 {
   "name": "marpit-with-revealjs-sample",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "MarpIt with RevealJs --sample",
   "source": "src/index.html",
   "scripts": {
@@ -27,15 +27,19 @@
   },
   "homepage": "https://github.com/pi2pie/marpit-with-revealjs-sample#readme",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.4.1",
+    "@parcel/transformer-sass": "^2.13.3",
     "buffer": "^6.0.3",
-    "parcel": "^2.4.1",
-    "parcel-transformer-markdown": "^2.1.0",
-    "punycode": "^2.1.1",
+    "json5": "^2.2.3",
+    "parcel": "^2.13.3",
+    "parcel-transformer-markdown": "^3.0.1",
+    "punycode": "^2.3.1",
     "shx": "^0.3.4"
   },
   "dependencies": {
-    "@marp-team/marpit": "^2.2.3",
-    "reveal.js": "^4.3.1"
+    "@marp-team/marpit": "^3.1.2",
+    "reveal.js": "^5.1.0"
+  },
+  "overrides": {
+    "json5": "^2.2.3"
   }
 }

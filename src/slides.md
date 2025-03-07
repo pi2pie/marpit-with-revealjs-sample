@@ -10,11 +10,13 @@ Experience how [Marpit] works with [reveal.js]
 ---
 
 <!--_class: danger big-->
+
 This slide's screen size is for desktop or tablet.
 
 ---
 
 <!--_transition: zoom -->
+
 ## [Marpit] + [reveal.js]
 
 [![h:100](https://marpit.marp.app/marpit.png)][marpit]
@@ -29,16 +31,17 @@ See [the source code](https://codesandbox.io/s/nw80vrxvpp?file=/src/index.js) on
 
 <!--_transition: fade -->
 
-And [this sample](https://github.com/pi2pie/marpit-with-revealjs-sample) modified by **pi2pie**.  
+And [this sample](https://github.com/pi2pie/marpit-with-revealjs-sample) modified by **pi2pie**.
 
 ---
+
 ### Check out image syntax
 
 ```markdown
 ![bg vertical](url)
 ![bg](url)
-
 ```
+
 Actually the `[bg]` image syntax does not work properly. \
 Therefore, back to write `html`. \
 Such as …
@@ -94,9 +97,9 @@ Such as …
 
 <section>
   <div class="r-stack">
-  <img class="fragment fade-out" data-fragment-index="0" src="https://placekitten.com/450/300" width="450" height="300">
-  <img class="fragment current-visible" data-fragment-index="0" src="https://placekitten.com/300/450" width="300" height="450">
-  <img class="fragment" src="https://placekitten.com/400/400" width="400" height="400">
+  <img class="fragment fade-out" data-fragment-index="0" src="https://picsum.photos/450/300" width="450" height="300">
+  <img class="fragment current-visible" data-fragment-index="0" src="https://picsum.photos/300/450" width="300" height="450">
+  <img class="fragment" src="https://picsum.photos/400/400" width="400" height="400">
   </div>
 </section>
 
@@ -105,7 +108,6 @@ Such as …
 <section data-background-video="https://static.slid.es/site/homepage/v1/homepage-video-editor.mp4" 
           data-background-video-loop data-background-video-muted>
 </section>
-
 
 ---
 
@@ -212,7 +214,6 @@ Such as …
 
 </div>
 
-
 </div>
 </section>
 
@@ -226,6 +227,7 @@ transition: slide
 ## _Disclaimer_
 
 ---
+
 ## _Disclaimer_
 
 **[Marpit] is not only for [Marp](https://marp.app/)**. \
