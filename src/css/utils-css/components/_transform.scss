@@ -1,11 +1,13 @@
 /* transform */
 
+@use './_properties' as properties;
+
 @function mul5($number) {
-  @return $number*5;
+  @return $number * 5;
 }
 
 @for $i from 1 through 72 {
   section .rotation-#{mul5($i)} {
-    @include transform ( rotate(#{mul5($i)}deg));
+    @include properties.transform(rotate(#{mul5($i)}deg));
   }
 }

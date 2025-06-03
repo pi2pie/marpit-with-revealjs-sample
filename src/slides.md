@@ -57,9 +57,9 @@ Such as …
 
 <section>
 <div class="layout-horizon">
-<img class="col-33" src="https://fakeimg.pl/450x450/0288d1/fff/?text=A">
-<img class="col-33" src="https://fakeimg.pl/450x450/02669d/fff/?text=B">
-<img class="col-33" src="https://fakeimg.pl/450x450/67b8e3/fff/?text=C">
+<img class="col-33" src="https://placehold.co/450x450/0288d1/fff/?text=A">
+<img class="col-33" src="https://placehold.co/450x450/02669d/fff/?text=B">
+<img class="col-33" src="https://placehold.co/450x450/67b8e3/fff/?text=C">
 </div>
 </section>
 
@@ -69,9 +69,9 @@ Such as …
 <div class="ph2">
 <div class="ba bw3 bRad4">
 <div class="layout-vertical items-center m-0 pv5">
-<img src="https://fakeimg.pl/1200x96/0288d1/fff/?text=A">
-<img src="https://fakeimg.pl/1200x96/02669d/fff/?text=B">
-<img src="https://fakeimg.pl/1200x96/67b8e3/fff/?text=C">
+<img src="https://placehold.co/1200x96/0288d1/fff/?text=A">
+<img src="https://placehold.co/1200x96/02669d/fff/?text=B">
+<img src="https://placehold.co/1200x96/67b8e3/fff/?text=C">
 </div>
 </div>
 </div>
@@ -84,7 +84,7 @@ Such as …
 <section data-background-color="aquamarine">
 <div class="layout-horizon ph4" style="gap: 1em;">
 <div class="col-50">
-<img src="https://fakeimg.pl/800x600/0288d1/fff/?text=A">
+<img src="https://placehold.co/800x600/0288d1/fff/?text=A">
 </div>
 <div class="col-50">
 <h2 class="r-fit-text">FIT TEXT</h2>

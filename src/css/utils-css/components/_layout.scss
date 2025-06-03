@@ -1,13 +1,22 @@
 /* layout */
 
-section .push-left { float: left; display: inline-block; }
-section .push-right { float: right; display: inline-block; }
-section .clearfix { clear:both; }
+@use 'sass:math';
 
+section .push-left {
+  float: left;
+  display: inline-block;
+}
+section .push-right {
+  float: right;
+  display: inline-block;
+}
+section .clearfix {
+  clear: both;
+}
 
 section .row:before,
 section .row:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -25,84 +34,96 @@ section .row *[class*='col-'] {
   padding: 0em 0.15em;
 }
 
-$col-first:1;
-$col-mid:34;
+$col-first: 1;
+$col-mid: 34;
 
 @while $col-first < 33 {
   section .col-#{$col-first} {
-    width: percentage($col-first*0.01);
+    width: math.percentage($col-first * 0.01);
   }
-  $col-first: $col-first+1;
+  $col-first: $col-first + 1;
 }
 
-section .col-33 { width:33.33%; }
+section .col-33 {
+  width: 33.33%;
+}
 
 @while $col-mid < 66 {
   section .col-#{$col-mid} {
-    width: percentage($col-mid*0.01);
+    width: math.percentage($col-mid * 0.01);
   }
-  $col-mid: $col-mid+1;
+  $col-mid: $col-mid + 1;
 }
 
-section .col-66 { width:66.66%; }
+section .col-66 {
+  width: 66.66%;
+}
 
 @for $i from 67 through 100 {
   section .col-#{$i} {
-    width: round(percentage($i*0.01)) !important;
+    width: math.round(math.percentage($i * 0.01)) !important;
   }
 }
 
-$push-first:1;
-$push-mid:34;
+$push-first: 1;
+$push-mid: 34;
 
 @while $push-first < 33 {
   section .push-#{$push-first} {
-    left: percentage($push-first*0.01) !important;
+    left: math.percentage($push-first * 0.01) !important;
   }
-  $push-first: $push-first+1;
+  $push-first: $push-first + 1;
 }
 
-section .push-33 { left:33.33% !important; }
+section .push-33 {
+  left: 33.33% !important;
+}
 
 @while $push-mid < 66 {
   .push-#{$push-mid} {
-    left: percentage($push-mid*0.01) !important;
+    left: math.percentage($push-mid * 0.01) !important;
   }
-  $push-mid: $push-mid+1;
+  $push-mid: $push-mid + 1;
 }
 
-section .push-66 { left:66.66% !important; }
+section .push-66 {
+  left: 66.66% !important;
+}
 
 @for $i from 67 through 100 {
   section .push-#{$i} {
-    left: round(percentage($i*0.01)) !important;
+    left: math.round(math.percentage($i * 0.01)) !important;
   }
 }
 
-$pull-first:1;
-$pull-mid:34;
+$pull-first: 1;
+$pull-mid: 34;
 
 @while $pull-first < 33 {
   section .pull-#{$pull-first} {
-    left: - percentage($pull-first*0.01) !important;
+    left: -(math.percentage($pull-first * 0.01)) !important;
   }
-  $pull-first: $pull-first+1;
+  $pull-first: $pull-first + 1;
 }
 
-section .pull-33 { left:-33.33%; }
+section .pull-33 {
+  left: -33.33%;
+}
 
 @while $pull-mid < 66 {
   section .pull-#{$pull-mid} {
-    left: - percentage($pull-mid*0.01) !important;
+    left: -(math.percentage($pull-mid * 0.01)) !important;
   }
-  $pull-mid: $pull-mid+1;
+  $pull-mid: $pull-mid + 1;
 }
 
-section .pull-66 { left:-66.66% !important; }
+section .pull-66 {
+  left: -66.66% !important;
+}
 
 @for $i from 67 through 100 {
   section .pull-#{$i} {
-    left: - round(percentage($i*0.01)) !important;
+    left: -(math.round(math.percentage($i * 0.01))) !important;
   }
 }
 /* 

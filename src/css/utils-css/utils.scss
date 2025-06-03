@@ -1,9 +1,21 @@
-
 /*********************************************
 
 pi2pie.io
 
 *********************************************/
+
+@use 'components/_properties' as *;
+@use 'components/_position' as *;
+@use 'components/_display' as *;
+@use 'components/_skin' as *;
+@use 'components/_img' as *;
+@use 'components/_deco' as *;
+@use 'components/_text' as *;
+@use 'components/_border' as *;
+@use 'components/_layout' as *;
+@use 'components/_flex' as *;
+@use 'components/_spacing' as *;
+@use 'components/_transform' as *;
 
 section *,
 body .reveal .slides section .fragment {
@@ -13,20 +25,6 @@ body .reveal .slides section .fragment {
   -webkit-transition: all 0.4s ease;
 }
 
-section pre code { overflow: hidden !important; }
-
-
-// Default mixins and settings -----------------
-@import "components/_properties";
-@import "components/_position";
-@import "components/_display";
-@import "components/_skin";
-@import "components/_img";
-@import "components/_deco";
-@import "components/_text";
-@import "components/_border";
-@import "components/_layout";
-@import "components/_flex";
-@import "components/_spacing";
-@import "components/_transform";
-// ---------------------------------------------
+section pre code {
+  overflow: hidden !important;
+}

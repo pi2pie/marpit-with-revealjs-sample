@@ -1,3 +1,5 @@
+@use './_skin';
+
 /* var in _skin.scss */
 
 /* img zoom */
@@ -13,40 +15,40 @@ body section .bg {
   background-color: rgba(255, 255, 255, 0.05);
 }
 body section .bg-muted {
-  background-color: $muted-bg;
-  color: $muted;
+  background-color: skin.$muted-bg;
+  color: skin.$muted;
 }
 body section .bg-info {
-  background-color: $info-bg;
-  color: $info;
+  background-color: skin.$info-bg;
+  color: skin.$info;
 }
 body section .bg-warning {
-  background-color: $warning-bg;
-  color: $warning;
+  background-color: skin.$warning-bg;
+  color: skin.$warning;
 }
 body section .bg-danger {
-  background-color: $danger-bg;
-  color: $danger;
+  background-color: skin.$danger-bg;
+  color: skin.$danger;
 }
 body section .bg-success {
-  background-color: $success-bg;
-  color: $success;
+  background-color: skin.$success-bg;
+  color: skin.$success;
 }
 
 section .framed {
-  border: 3px solid $framed-b;
+  border: 3px solid skin.$framed-b;
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
 }
 section .boxed {
-  border: 3px solid $boxed-b;
+  border: 3px solid skin.$boxed-b;
   padding-left: 10px;
   padding-right: 10px;
 }
 section .sided {
-  border-left: 15px solid $sided-b;
-  background-color: $sided-b;
+  border-left: 15px solid skin.$sided-b;
+  background-color: skin.$sided-b;
   padding: 3px 10px 3px 10px;
 }
 section .padded {
@@ -54,37 +56,57 @@ section .padded {
 }
 
 section .quoted {
-  background-color: $quoted-bg;
+  background-color: skin.$quoted-bg;
   padding: 3px 10px 3px 10px;
   font-style: italic;
 }
 section .quoted:before {
   position: relative;
   top: -0.1em;
-  content: "\f10d";
-  font-family: "FontAwesome";
-  color: $quoted-before-color;
+  content: '\f10d';
+  font-family: 'FontAwesome';
+  color: skin.$quoted-before-color;
   padding-right: 0.3em;
 }
 section .quoted:after {
   position: relative;
   top: 0.3em;
-  content: "\f10e";
-  font-family: "FontAwesome";
-  color: $quoted-after-color;
+  content: '\f10e';
+  font-family: 'FontAwesome';
+  color: skin.$quoted-after-color;
   padding-left: 0.2em;
 }
 
 /* reveal img overhaul */
 
-body section img { background: none !important; }
-body section .rounded { border-radius: 10px; }
-body section .unbordered { border-style: none; }
-body section .circled { border-radius: 50%; }
-body section .flat { box-shadow: none; }
+body section img {
+  background: none !important;
+}
+body section .rounded {
+  border-radius: 10px;
+}
+body section .unbordered {
+  border-style: none;
+}
+body section .circled {
+  border-radius: 50%;
+}
+body section .flat {
+  box-shadow: none;
+}
 
-body section .border-muted { border-color: $muted-b; }
-body section .border-info { border-color: $info-b; }
-body section .border-warning { border-color: $warning-b; }
-body section .border-danger { border-color: $danger-b; }
-body section .border-success { border-color: $success-b; }
+body section .border-muted {
+  border-color: skin.$muted-b;
+}
+body section .border-info {
+  border-color: skin.$info-b;
+}
+body section .border-warning {
+  border-color: skin.$warning-b;
+}
+body section .border-danger {
+  border-color: skin.$danger-b;
+}
+body section .border-success {
+  border-color: skin.$success-b;
+}
