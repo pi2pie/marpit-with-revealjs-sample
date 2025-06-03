@@ -1,3 +1,16 @@
+## 🚧 **ARCHIVED (2025-06-03):**
+
+This project was originally created as a demo and has served its initial purpose.
+Development is now on hold as workflows have shifted to other tools.
+
+A migration from SCSS to native CSS is planned, but no timeline is set at the moment.
+Depending on team capacity and interest, a similarly focused template or project may be created in the future under a new name.
+
+> [!Note]
+>
+> - Migrating from SCSS to modern CSS (custom properties, container queries, native modules)
+> - Simplifies the stylesheets and leverages built-in browser features.
+
 # marpit-with-revealjs-sample
 
 Currently, **_Marpit_** has not fully supported **_Reveal.js_**. \
